@@ -1,0 +1,21 @@
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: #e7d9ea;
+    color: #222831;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.top:hover {
+    background-color: #d9adad;
+    transition: 3ms;
+}
+
+.backToTop > a {
+    color: #222831;
+    text-decoration: none;
+    border: none;
+}
