@@ -11,7 +11,7 @@ npm -i firebase
 npm i -g firebase-tools
 firebase login
 firebase init
-give y to single page app
+single page app: y
 npm run build
 firebase deploy
 ```
@@ -21,4 +21,15 @@ Install the axios lib.
 
 ```sh
 npm i axios
+```
+
+Install the cloud functions.
+
+```sh
+firebase init
+select functions
+select javascript
+Esline bugs: y
+Dependencies: y
+install everthing inside functions folder: npm i xxx
 ```
