@@ -33,3 +33,10 @@ Esline bugs: y
 Dependencies: y
 install everthing inside functions folder: npm i xxx
 ```
+Install the cloud functions inside backend.
+
+```sh
+npm i express
+npm i cors
+npm i stripe
+```
