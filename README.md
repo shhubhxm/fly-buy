@@ -16,3 +16,9 @@ npm run build
 firebase deploy
 ```
 
+
+Install the axios lib.
+
+```sh
+npm i axios
+```
