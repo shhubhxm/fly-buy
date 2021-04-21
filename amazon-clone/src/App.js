@@ -15,6 +15,12 @@ import { useStateValue } from './StateProvider';
 import Footer from "./Footer";
 import HeaderTwo from "./Header2";
 import BackToTop from "./BackToTop";
+import { loadStripe } from "@stripe/stripe-js"
+import { Elements } from "@stripe/react-stripe-js"
+
+const promise = loadStripe(
+  "pk_test_51IgwwgSChHG8M6kZxTstDLoSuXB7c9WUgD2hGS654kj6GvVtSIT6JAsbGfk1COCexxhATZyvHWpIh06pzDD3slUg00jcxRtSCR"
+);
 
 function App() {
   const [{ }, dispatch] = useStateValue();
@@ -69,7 +75,9 @@ function App() {
           <Route path="/payment">
             <Header />
             <HeaderTwo />
-            <Payment />
+            <Elements stripe={promise}>
+              <Payment />
+            </Elements>
             <Footer />
           </Route>
 
