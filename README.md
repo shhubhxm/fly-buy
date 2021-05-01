@@ -39,4 +39,5 @@ Install the cloud functions inside backend.
 npm i express
 npm i cors
 npm i stripe
+firebase emulators:start
 ```
