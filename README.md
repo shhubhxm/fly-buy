@@ -29,21 +29,21 @@ Before clicking on buy now it will process and backend will generate a secret ke
 
 <span style="display:block;text-align:center">![](amazon-clone/images/secret_key.png)</span>
 
-Inside my vscode terminal the request along with successfull payment is displayed
+Inside my vscode terminal the request along with successful payment is displayed
 
 <span style="display:block;text-align:center">![](amazon-clone/images/stripe_request_terminal.png)</span>
 
 ## Orders (After Payment)
-After the payment is sucessfull it will take you to the orders page showing you do not have any futher orders.
+After the payment is successful it will take you to the orders page showing you do not have any futher orders.
 
 <span style="display:block;text-align:center">![](amazon-clone/images/after_payment.png)</span>
 
 ## Stripe
-After the payment of the Beats Headphone went through my stripe page will display the amount that is recieved.
+After the payment of the Beats Headphone went through, my stripe page will display the amount that is recieved.
 
 <span style="display:block;text-align:center">![](amazon-clone/images/stripe_home.png)</span>
 
-You can see inside stripe payments the last recieved payment of the beats headphone [₹25,900].
+You can see inside stripe payments the last entry[may 10th], the payment of the beats headphone [₹25,900] is recieved.
 
 <span style="display:block;text-align:center">![](amazon-clone/images/stripe_payment_page.png)</span>
 
