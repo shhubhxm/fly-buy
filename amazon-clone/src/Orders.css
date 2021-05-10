@@ -1,0 +1,19 @@
+.orders {
+	display: flex;
+    background-color: #ffffff;
+    min-height: 100vh;
+}
+
+.orders__container {
+    margin: 20px 55px;
+    flex: 0.6;
+}
+
+.orders__title {
+    padding: 10px 0px;
+}
+
+.orders__title > h3 {
+    padding-left: 10px;
+    border-bottom: 1px solid black;
+}

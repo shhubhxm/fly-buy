@@ -7,6 +7,7 @@ import {
   Route,
 } from "react-router-dom";
 import Checkout from './Checkout';
+import Orders from './Orders'
 import Login from './Login';
 import Payment from './Payment';
 import { useEffect } from 'react';
@@ -52,6 +53,16 @@ function App() {
     <Router>
       <div className="app">
         <Switch>
+
+          {/* orders page */}
+
+          <Route path="/orders">
+            <Header />
+            <HeaderTwo />
+            <Orders />
+            <BackToTop />
+            <Footer />
+          </Route>
 
           {/* login page */}
 
